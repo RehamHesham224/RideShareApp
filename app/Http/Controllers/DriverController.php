@@ -18,7 +18,7 @@ class DriverController extends Controller
             'make'=> 'required',
             'model'=> 'required',
             'color'=> 'required|alpha',
-            'license_plate'=> 'required',
+            'licence_plate'=> 'required',
             'name'=>'required'
         ]);
 
@@ -30,10 +30,11 @@ class DriverController extends Controller
             'make',
             'model',
             'color',
-            'license_plate',
+            'licence_plate',
         ]));
 
         $user->load('driver');
+//        dd($user);
 
         return $user;
     }
