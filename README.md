@@ -1,5 +1,5 @@
 
-## ِA Ride Share App
+## ِRide Share App
 
 Application using Laravel and Pusher to Reserve a trip using a car
 
